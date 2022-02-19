@@ -130,3 +130,49 @@ select{
     background: white;
     color: #ff6f47;
 }
+
+
+@media screen and (max-width:800px){
+    .select, select{
+        display: none;
+        /* margin-top: 100px; */
+        /* position: absolute; */
+        /* top: 10px; */
+        width: 45px;
+    }
+    .container{
+        position: absolute;
+        top: 70%;
+        left: 10%;
+        /* display: inline-block; */
+    }
+    input, button{
+        height: 100px;
+    }
+    .container button i{
+        /* height: 100; */
+        padding: 0;
+        font-size: 60px;
+        width: 100px;
+    }
+    .todo-list{
+        /* min-width: 10%; */
+        list-style: none;
+    }
+    .todo{
+        /* margin: 0.5rem;
+        background: whitesmoke;
+        color: black;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.5s ease; */
+        height: 50px;
+        width: 500px;
+    }
+    .todo button{
+        /* font-size: 10px; */
+        height: inherit;
+    }
+}
